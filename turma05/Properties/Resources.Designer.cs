@@ -143,9 +143,49 @@ namespace turma05.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Flag_map_of_Parana {
+            get {
+                object obj = ResourceManager.GetObject("Flag_map_of_Parana", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap free_flat_icons_exarion {
             get {
                 object obj = ResourceManager.GetObject("free-flat-icons_exarion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_hora_extra_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-hora-extra-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_literatura_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-literatura-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_usuário_de_gênero_neutro_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-usuário-de-gênero-neutro-64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -53,7 +53,9 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.Gold;
+            this.menuStrip1.AllowMerge = false;
+            this.menuStrip1.AutoSize = false;
+            this.menuStrip1.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.menuStrip1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -66,7 +68,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 10, 0, 10);
-            this.menuStrip1.Size = new System.Drawing.Size(882, 53);
+            this.menuStrip1.Size = new System.Drawing.Size(882, 81);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -77,9 +79,11 @@
             this.alterarToolStripMenuItem,
             this.excluirToolStripMenuItem,
             this.consultarToolStripMenuItem});
-            this.cadastrosToolStripMenuItem.Image = global::turma05.Properties.Resources.leitor;
+            this.cadastrosToolStripMenuItem.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cadastrosToolStripMenuItem.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.cadastrosToolStripMenuItem.Image = global::turma05.Properties.Resources.icons8_usuário_de_gênero_neutro_64;
             this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
-            this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(102, 33);
+            this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(102, 61);
             this.cadastrosToolStripMenuItem.Text = "Leitor";
             this.cadastrosToolStripMenuItem.Click += new System.EventHandler(this.cadastrosToolStripMenuItem_Click);
             // 
@@ -88,7 +92,7 @@
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
             this.clientesToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.I)));
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(323, 34);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(311, 34);
             this.clientesToolStripMenuItem.Text = "Incluir";
             this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
             // 
@@ -97,7 +101,7 @@
             this.alterarToolStripMenuItem.Name = "alterarToolStripMenuItem";
             this.alterarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.A)));
-            this.alterarToolStripMenuItem.Size = new System.Drawing.Size(323, 34);
+            this.alterarToolStripMenuItem.Size = new System.Drawing.Size(311, 34);
             this.alterarToolStripMenuItem.Text = "Alterar";
             this.alterarToolStripMenuItem.Click += new System.EventHandler(this.alterarToolStripMenuItem_Click);
             // 
@@ -106,7 +110,7 @@
             this.excluirToolStripMenuItem.Name = "excluirToolStripMenuItem";
             this.excluirToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.E)));
-            this.excluirToolStripMenuItem.Size = new System.Drawing.Size(323, 34);
+            this.excluirToolStripMenuItem.Size = new System.Drawing.Size(311, 34);
             this.excluirToolStripMenuItem.Text = "Excluir";
             this.excluirToolStripMenuItem.Click += new System.EventHandler(this.excluirToolStripMenuItem_Click);
             // 
@@ -115,7 +119,7 @@
             this.consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
             this.consultarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.C)));
-            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(323, 34);
+            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(311, 34);
             this.consultarToolStripMenuItem.Text = "Consultar";
             this.consultarToolStripMenuItem.Click += new System.EventHandler(this.consultarToolStripMenuItem_Click);
             // 
@@ -126,36 +130,38 @@
             this.alterarToolStripMenuItem1,
             this.excluirToolStripMenuItem1,
             this.consultarToolStripMenuItem1});
-            this.consultasToolStripMenuItem.Image = global::turma05.Properties.Resources.free_flat_icons_exarion;
+            this.consultasToolStripMenuItem.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.consultasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.consultasToolStripMenuItem.Image = global::turma05.Properties.Resources.icons8_literatura_64;
             this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
-            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(93, 33);
+            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(93, 61);
             this.consultasToolStripMenuItem.Text = "Livro";
             // 
             // clientesToolStripMenuItem1
             // 
             this.clientesToolStripMenuItem1.Name = "clientesToolStripMenuItem1";
-            this.clientesToolStripMenuItem1.Size = new System.Drawing.Size(193, 34);
+            this.clientesToolStripMenuItem1.Size = new System.Drawing.Size(181, 34);
             this.clientesToolStripMenuItem1.Text = "Incluir";
             this.clientesToolStripMenuItem1.Click += new System.EventHandler(this.clientesToolStripMenuItem1_Click);
             // 
             // alterarToolStripMenuItem1
             // 
             this.alterarToolStripMenuItem1.Name = "alterarToolStripMenuItem1";
-            this.alterarToolStripMenuItem1.Size = new System.Drawing.Size(193, 34);
+            this.alterarToolStripMenuItem1.Size = new System.Drawing.Size(181, 34);
             this.alterarToolStripMenuItem1.Text = "Alterar";
             this.alterarToolStripMenuItem1.Click += new System.EventHandler(this.alterarToolStripMenuItem1_Click);
             // 
             // excluirToolStripMenuItem1
             // 
             this.excluirToolStripMenuItem1.Name = "excluirToolStripMenuItem1";
-            this.excluirToolStripMenuItem1.Size = new System.Drawing.Size(193, 34);
+            this.excluirToolStripMenuItem1.Size = new System.Drawing.Size(181, 34);
             this.excluirToolStripMenuItem1.Text = "Excluir";
             this.excluirToolStripMenuItem1.Click += new System.EventHandler(this.excluirToolStripMenuItem1_Click);
             // 
             // consultarToolStripMenuItem1
             // 
             this.consultarToolStripMenuItem1.Name = "consultarToolStripMenuItem1";
-            this.consultarToolStripMenuItem1.Size = new System.Drawing.Size(193, 34);
+            this.consultarToolStripMenuItem1.Size = new System.Drawing.Size(181, 34);
             this.consultarToolStripMenuItem1.Text = "Consultar";
             this.consultarToolStripMenuItem1.Click += new System.EventHandler(this.consultarToolStripMenuItem1_Click);
             // 
@@ -166,80 +172,89 @@
             this.consultarToolStripMenuItem2,
             this.excluirToolStripMenuItem2,
             this.devoluçãoToolStripMenuItem});
-            this.empréstimoToolStripMenuItem.Image = global::turma05.Properties.Resources.emprestimos;
+            this.empréstimoToolStripMenuItem.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.empréstimoToolStripMenuItem.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.empréstimoToolStripMenuItem.Image = global::turma05.Properties.Resources.icons8_hora_extra_64;
             this.empréstimoToolStripMenuItem.Name = "empréstimoToolStripMenuItem";
-            this.empréstimoToolStripMenuItem.Size = new System.Drawing.Size(163, 33);
+            this.empréstimoToolStripMenuItem.Size = new System.Drawing.Size(163, 61);
             this.empréstimoToolStripMenuItem.Text = "Empréstimo";
             // 
             // incluirToolStripMenuItem
             // 
             this.incluirToolStripMenuItem.Name = "incluirToolStripMenuItem";
-            this.incluirToolStripMenuItem.Size = new System.Drawing.Size(252, 34);
+            this.incluirToolStripMenuItem.Size = new System.Drawing.Size(191, 34);
             this.incluirToolStripMenuItem.Text = "Incluir";
             this.incluirToolStripMenuItem.Click += new System.EventHandler(this.incluirToolStripMenuItem_Click);
             // 
             // consultarToolStripMenuItem2
             // 
             this.consultarToolStripMenuItem2.Name = "consultarToolStripMenuItem2";
-            this.consultarToolStripMenuItem2.Size = new System.Drawing.Size(252, 34);
+            this.consultarToolStripMenuItem2.Size = new System.Drawing.Size(191, 34);
             this.consultarToolStripMenuItem2.Text = "Consultar";
             this.consultarToolStripMenuItem2.Click += new System.EventHandler(this.consultarToolStripMenuItem2_Click);
             // 
             // excluirToolStripMenuItem2
             // 
             this.excluirToolStripMenuItem2.Name = "excluirToolStripMenuItem2";
-            this.excluirToolStripMenuItem2.Size = new System.Drawing.Size(252, 34);
+            this.excluirToolStripMenuItem2.Size = new System.Drawing.Size(191, 34);
             this.excluirToolStripMenuItem2.Text = "Excluir";
             // 
             // devoluçãoToolStripMenuItem
             // 
             this.devoluçãoToolStripMenuItem.Name = "devoluçãoToolStripMenuItem";
-            this.devoluçãoToolStripMenuItem.Size = new System.Drawing.Size(252, 34);
+            this.devoluçãoToolStripMenuItem.Size = new System.Drawing.Size(191, 34);
             this.devoluçãoToolStripMenuItem.Text = "Devolução";
             this.devoluçãoToolStripMenuItem.Click += new System.EventHandler(this.devoluçãoToolStripMenuItem_Click);
             // 
             // sobreToolStripMenuItem
             // 
+            this.sobreToolStripMenuItem.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sobreToolStripMenuItem.ForeColor = System.Drawing.SystemColors.MenuText;
             this.sobreToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("sobreToolStripMenuItem.Image")));
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(102, 33);
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(102, 61);
             this.sobreToolStripMenuItem.Text = "Sobre";
             // 
             // ajudaToolStripMenuItem
             // 
+            this.ajudaToolStripMenuItem.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ajudaToolStripMenuItem.ForeColor = System.Drawing.SystemColors.MenuText;
             this.ajudaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ajudaToolStripMenuItem.Image")));
             this.ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
-            this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(103, 33);
+            this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(103, 61);
             this.ajudaToolStripMenuItem.Text = "Ajuda";
             // 
             // sairToolStripMenuItem
             // 
+            this.sairToolStripMenuItem.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sairToolStripMenuItem.ForeColor = System.Drawing.SystemColors.MenuText;
             this.sairToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("sairToolStripMenuItem.Image")));
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(82, 33);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(82, 61);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // FPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(882, 403);
+            this.BackgroundImage = global::turma05.Properties.Resources.Flag_map_of_Parana;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(882, 713);
             this.Controls.Add(this.menuStrip1);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FPrincipal";
-            this.Text = "Biblioteca Municipal de Itapetininga";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Text = "Biblioteca - Col. Estadual Paraná";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

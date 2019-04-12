@@ -17,7 +17,7 @@ namespace turma05
         {
             
             con = new SqlConnection();
-            con.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\leandro.cmaschietto\source\repos\senaccsharp\turma05\bancodedados.mdf";
+            con.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\diego\source\repos\senaccsharp\turma05\bancodedados.mdf";
             con.Open();
             return con;
 

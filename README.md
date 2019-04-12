@@ -1,3 +1,5 @@
-# Sistema de gerenciamento da Biblioteca do Colégio Estadual PR.
-Esse sistema foi desenvolvido pelo Prof. Leandro Cesari Maschietto, Linkedin/leandromaschietto, o qual cedeu o código
+# Sistema de gerenciamento da Biblioteca - Col. PR.
+
+
+Muitro Obrigado ao Prof. Leandro Cesari Maschietto, Linkedin/leandromaschietto, o qual cedeu o código
 para estudo e aperfeiçoamento.
